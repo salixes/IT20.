@@ -5,6 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		LinkedList list = new LinkedList();
+                
 
         // Adding elements to the list
         list.add(10);
