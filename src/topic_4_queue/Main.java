@@ -1,19 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package topic_4_queue;
 
 import java.util.Scanner;
 
-/**
- *
- * @author saliz II
- */
 public class Main {
+
     public static void main(String[] args) {
-    Queue customerQueue = new Queue();
+        Queue customerQueue = new Queue();
         Scanner scanner = new Scanner(System.in);
         String option;
 
@@ -28,7 +20,7 @@ public class Main {
 
             switch (option) {
                 case "1":
-                    System.out.print("Enter customer name: ");
+                    System.out.print("Enter  customer name: ");
                     String name = scanner.nextLine();
                     customerQueue.enqueue(new Customer(name));
                     break;
