@@ -31,7 +31,7 @@ public class stackcalculator extends JFrame implements ActionListener {
     }
 
     private void setupFrame() {
-        setTitle("Stack Calculator");
+        setTitle("Stack Calculator ");
         setSize(300, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout(10, 10));
